@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Class22B-And-1</string>
+    <string name="name_default">Full Name Here…</string>
+    <string name="id_default">ID here…</string>
+    <string name="product_price_default">Enter Product price</string>
+    <string name="submit_button">submit</string>
+</resources>

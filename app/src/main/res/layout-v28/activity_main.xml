@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".MainActivity">-->
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_centerHorizontal="true"
+    >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:background="@color/black"
+        android:outlineSpotShadowColor="#FFFF"
+        >
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/main_LBL_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="@string/name_default"
+            android:textSize="15sp"
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/main_LBL_identifier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/id_default"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:layout_marginStart="0dp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+<!--    <com.google.android.material.textview.MaterialTextView-->
+<!--        android:id="@+id/main_LBL_txt"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Hello World!"-->
+<!--        android:textSize="30sp"-->
+<!--        android:textStyle="bold"-->
+<!--        />-->
+
+<!--    <com.google.android.material.button.MaterialButton-->
+<!--        android:id="@+id/main_BTN_clickMe"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/main_LBL_txt"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:textSize="20sp"-->
+<!--        android:padding="10dp"-->
+<!--        android:background="#FFF000"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:text="Click Me"-->
+<!--        />-->
+<!--    <EditText-->
+<!--        android:id="@+id/main_EDT_name"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_above="@+id/main_LBL_txt"-->
+<!--        android:text="name:"-->
+<!--        android:textSize="30sp"-->
+<!--        />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/main_IMG_camara"-->
+<!--        android:layout_width="45dp"-->
+<!--        android:layout_height="45dp"-->
+<!--        android:layout_marginEnd="0dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:src="@drawable/camera"-->
+<!--        />-->
+
+
+<!--</RelativeLayout>-->
