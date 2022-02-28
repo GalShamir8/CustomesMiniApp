@@ -1830,7 +1830,6 @@ id blocking
 id bottom
 id bounce
 id buttonPanel
-id c1
 id cache_measures
 id cancel_button
 id center
@@ -1948,14 +1947,12 @@ id line3
 id linear
 id listMode
 id list_item
-id main_BTN_submit
-id main_EDT_identifier
+id main_BTN_clickMe
 id main_EDT_name
-id main_IMG_failed
-id main_IMG_success
+id main_IMG_camara
 id main_LBL_identifier
 id main_LBL_name
-id main_LBL_productPrice
+id main_LBL_txt
 id masked
 id material_clock_display
 id material_clock_face

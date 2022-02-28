@@ -1,8 +1,6 @@
 package com.example.class22b_and_1;
 import androidx.appcompat.app.AppCompatActivity;
-import android.graphics.Color;
 import android.os.Bundle;
-import android.text.Layout;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -24,19 +22,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        View c1 = findViewById(R.id.c1);
 
         // inputs
-        fullNameInput = c1.findViewById(R.id.main_EDT_name);
-        idInput = c1.findViewById(R.id.main_EDT_identifier);
-        productPriceInput = c1.findViewById(R.id.main_LBL_productPrice);
+        fullNameInput = findViewById(R.id.main_EDT_name);
+        idInput = findViewById(R.id.main_EDT_identifier);
+        productPriceInput = findViewById(R.id.main_LBL_productPrice);
 
         // images
-        success = c1.findViewById(R.id.main_IMG_success);
-        failed = c1.findViewById(R.id.main_IMG_failed);
+        success = findViewById(R.id.main_IMG_success);
+        failed = findViewById(R.id.main_IMG_failed);
 
         //button
-        submit = c1.findViewById(R.id.main_BTN_submit);
+        submit = findViewById(R.id.main_BTN_submit);
 
         fullNameInput.setOnClickListener(e -> clearDefaultText(fullNameInput));
         idInput.setOnClickListener(e -> clearDefaultText(idInput));

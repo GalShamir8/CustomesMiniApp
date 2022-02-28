@@ -1829,7 +1829,6 @@ int id blocking 0x7f080055
 int id bottom 0x7f080056
 int id bounce 0x7f080057
 int id buttonPanel 0x7f080058
-int id c1 0x7f0801b2
 int id cache_measures 0x7f080059
 int id cancel_button 0x7f08005a
 int id center 0x7f08005b
@@ -1947,14 +1946,12 @@ int id line3 0x7f0800ca
 int id linear 0x7f0800cb
 int id listMode 0x7f0800cc
 int id list_item 0x7f0800cd
-int id main_BTN_submit 0x7f0801ab
-int id main_EDT_identifier 0x7f0801ac
+int id main_BTN_clickMe 0x7f0800ce
 int id main_EDT_name 0x7f0800cf
-int id main_IMG_failed 0x7f0801ad
-int id main_IMG_success 0x7f0801ae
+int id main_IMG_camara 0x7f0800d0
 int id main_LBL_identifier 0x7f0801af
 int id main_LBL_name 0x7f0801b0
-int id main_LBL_productPrice 0x7f0801b1
+int id main_LBL_txt 0x7f0800d1
 int id masked 0x7f0800d2
 int id material_clock_display 0x7f0800d3
 int id material_clock_face 0x7f0800d4
