@@ -1,11 +1,15 @@
 package com.example.class22b_and_1;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Layout;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
 
 public class MainActivity extends AppCompatActivity {
     private static final int CUSTOMS_MAX = 220;
@@ -22,7 +26,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setViews();
 
+        fullNameInput.setOnClickListener(e -> clearDefaultText(fullNameInput));
+        idInput.setOnClickListener(e -> clearDefaultText(idInput));
+        productPriceInput.setOnClickListener(e -> clearDefaultText(productPriceInput));
+
+        submit.setOnClickListener(e -> handleClick());
+
+    }
+
+    private void setViews() {
         // inputs
         fullNameInput = findViewById(R.id.main_EDT_name);
         idInput = findViewById(R.id.main_EDT_identifier);
@@ -34,13 +48,6 @@ public class MainActivity extends AppCompatActivity {
 
         //button
         submit = findViewById(R.id.main_BTN_submit);
-
-        fullNameInput.setOnClickListener(e -> clearDefaultText(fullNameInput));
-        idInput.setOnClickListener(e -> clearDefaultText(idInput));
-        productPriceInput.setOnClickListener(e -> clearDefaultText(productPriceInput));
-
-        submit.setOnClickListener(e -> handleClick());
-
     }
 
     private void handleClick() {
