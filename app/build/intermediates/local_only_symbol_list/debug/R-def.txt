@@ -20,7 +20,6 @@ id main_LBL_identifier
 id main_LBL_name
 id main_LBL_productPrice
 id main_LY_top
-id test
 layout activity_main
 mipmap ic_launcher
 mipmap ic_launcher_round
