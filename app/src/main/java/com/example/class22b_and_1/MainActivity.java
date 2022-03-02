@@ -61,6 +61,8 @@ public class MainActivity extends AppCompatActivity {
                 failed.setImageResource(R.drawable.success);
             }
         }catch (Exception e){
+            failed.setVisibility(View.VISIBLE);
+            failed.setImageResource(R.drawable.failed);
             Log.e(TAG, "handleClick: {}",e.getCause() );
         }
     }
@@ -68,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void clearDefaultText(EditText textField){
         if(textField != null){
-            textField.clearComposingText();
+            textField.getText().clear();
         }
     }
 }
