@@ -23,13 +23,13 @@
             android:text="@string/product_price_default"
             android:autofillHints="@string/product_price_default"
             android:inputType="numberSigned"
-        />
+            />
         <Button
             android:id="@+id/main_BTN_submit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/submit_button"
-        />
+            />
 
         <ImageView
             android:id="@+id/main_IMG_success"
@@ -88,43 +88,43 @@
 
 
 
-<!--<com.google.android.material.textview.MaterialTextView-->
-<!--android:id="@+id/main_LBL_txt"-->
-<!--android:layout_width="wrap_content"-->
-<!--android:layout_height="wrap_content"-->
-<!--android:text="Hello World!"-->
-<!--android:textSize="30sp"-->
-<!--android:textStyle="bold"-->
-<!--    />-->
+    <!--<com.google.android.material.textview.MaterialTextView-->
+    <!--android:id="@+id/main_LBL_txt"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Hello World!"-->
+    <!--android:textSize="30sp"-->
+    <!--android:textStyle="bold"-->
+    <!--    />-->
 
-<!--<com.google.android.material.button.MaterialButton-->
-<!--android:id="@+id/main_BTN_clickMe"-->
-<!--android:layout_width="wrap_content"-->
-<!--android:layout_height="wrap_content"-->
-<!--android:layout_below="@+id/main_LBL_txt"-->
-<!--android:layout_centerHorizontal="true"-->
-<!--android:textSize="20sp"-->
-<!--android:padding="10dp"-->
-<!--android:background="#FFF000"-->
-<!--android:layout_marginTop="16dp"-->
-<!--android:text="Click Me"-->
-<!--    />-->
-<!--<EditText-->
-<!--android:id="@+id/main_EDT_name"-->
-<!--android:layout_width="wrap_content"-->
-<!--android:layout_height="wrap_content"-->
-<!--android:layout_centerHorizontal="true"-->
-<!--android:layout_above="@+id/main_LBL_txt"-->
-<!--android:text="name:"-->
-<!--android:textSize="30sp"-->
-<!--    />-->
+    <!--<com.google.android.material.button.MaterialButton-->
+    <!--android:id="@+id/main_BTN_clickMe"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/main_LBL_txt"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:textSize="20sp"-->
+    <!--android:padding="10dp"-->
+    <!--android:background="#FFF000"-->
+    <!--android:layout_marginTop="16dp"-->
+    <!--android:text="Click Me"-->
+    <!--    />-->
+    <!--<EditText-->
+    <!--android:id="@+id/main_EDT_name"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_above="@+id/main_LBL_txt"-->
+    <!--android:text="name:"-->
+    <!--android:textSize="30sp"-->
+    <!--    />-->
 
-<!--<ImageView-->
-<!--android:id="@+id/main_IMG_camara"-->
-<!--android:layout_width="45dp"-->
-<!--android:layout_height="45dp"-->
-<!--android:layout_marginEnd="0dp"-->
-<!--android:layout_marginBottom="10dp"-->
-<!--android:layout_alignParentBottom="true"-->
-<!--android:src="@drawable/success"-->
-<!--    />-->
+    <!--<ImageView-->
+    <!--android:id="@+id/main_IMG_camara"-->
+    <!--android:layout_width="45dp"-->
+    <!--android:layout_height="45dp"-->
+    <!--android:layout_marginEnd="0dp"-->
+    <!--android:layout_marginBottom="10dp"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:src="@drawable/success"-->
+    <!--    />-->
